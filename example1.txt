@@ -1,0 +1,60 @@
+Conditional Statements : 
+------------------------
+
+.Conditional statements are nothing but which controls the execution flow in  a program.
+
+let me explain it in laymen terms , i dont the balance in my account i thought of going out to have something . on the way i came  across
+one biryani center and  a samosa shop then ,i decided that if my bank balance is more than 100 then i would eat biryani if not i would eat samosa.
+
+Like in the real world we have to take decisions based on certain conditions similarly to make decisions in a program based on any condition we use conditional statements
+
+They are :
+
+1.if
+2.if else
+3.if else if
+4.switch
+
+1.if(balance > 100){
+    //eat biryani
+}
+
+2.if(balance > 100){
+    //eat biryani
+}else{
+    //eat samosa
+}
+
+3.if(balance > 200){
+    //have both biryani and cool drink
+}else if(balance > 100){
+    //have biryani
+}else{
+    //have tea
+}
+
+4.switch(day){
+case 1:
+//it is sunday
+break;
+case 2:
+//it is monday
+break;
+case 3:
+//it is tuesday
+break;
+case 4:
+//it is wednsday
+break;
+case 5:
+//it is thursday
+break;
+case 6:
+//it is friday
+break;
+case 7:
+//it is saturday
+break;
+default:
+//hello
+}

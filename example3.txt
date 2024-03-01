@@ -1,0 +1,47 @@
+Loops :
+-------
+
+
+.When we want to perform a repetitive thing we use Loops
+
+ex : when song is played in repeat it continues to play same song until it meets an interpution ( unchecking the repeat mode)
+
+loops execute until they find a failure condition
+
+They are :
+
+1.for
+2.while
+3.do-while
+
+1.for :
+-------
+
+syntax :
+
+for(let index=0;index<10;index++){
+    console.log(index)
+}
+
+//the above code prints 0-9 in console
+
+2.while
+
+let index=0;
+
+while(index<10){
+    console.log(index);
+    index++
+}
+
+//It prints the 0-9 in console
+
+3. do-while
+
+
+let index=0
+do{
+    console.log(index)
+}while(index<10)
+
+it atleast prints one time
